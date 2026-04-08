@@ -1,0 +1,2 @@
+import"./assets/styles-ChyRFi2L.js";import{i}from"./assets/vendor-BbbuE1sJ.js";const t=document.querySelector(".form");t.addEventListener("submit",o=>{o.preventDefault();const s=Number(t.elements.delay.value),m=t.elements.state.value;new Promise((e,r)=>{setTimeout(()=>{m==="fulfilled"?e(s):r(s)},s)}).then(e=>{i.success({message:`✅ gitFulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{i.error({message:`❌ Rejected promise in ${e}ms`,position:"topRight"})}),t.reset()});
+//# sourceMappingURL=2-snackbar.js.map
